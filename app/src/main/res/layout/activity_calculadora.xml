@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calculadora">
+
+    <TextView
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:id="@+id/expresion"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="right|bottom"
+        android:textColor="#000000"
+        android:text=""
+        android:layout_marginBottom="16dp"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:ellipsize="end"
+        android:singleLine="true"
+
+        android:id="@+id/finalizando"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="right|bottom"
+        android:textColor="#000000"
+        android:text=""
+        android:layout_marginBottom="16dp"
+        android:textSize="35sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/borrando"
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:backgroundTint="#FF5733"
+            android:text="Borrar" />
+
+        <Button
+            android:id="@+id/multiplicando"
+            android:backgroundTint="#008080"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="X" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/siete"
+            android:backgroundTint="#000000"
+            android:text="7"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/ocho"
+            android:backgroundTint="#000000"
+            android:text="8"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/nueve"
+            android:backgroundTint="#000000"
+            android:text="9"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/dividiendo"
+            android:backgroundTint="#008080"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cuatro"
+            android:backgroundTint="#000000"
+            android:text="4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/cinco"
+            android:backgroundTint="#000000"
+            android:text="5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/seis"
+            android:backgroundTint="#000000"
+            android:text="6"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/restando"
+            android:backgroundTint="#008080"
+            android:text="-"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/uno"
+            android:backgroundTint="#000000"
+            android:text="1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/dos"
+            android:backgroundTint="#000000"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/tres"
+            android:backgroundTint="#000000"
+            android:text="3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/sumando"
+            android:backgroundTint="#008080"
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cero"
+            android:backgroundTint="#000000"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/igual"
+            android:backgroundTint="#FF5733"
+            android:text="="
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
